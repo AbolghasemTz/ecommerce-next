@@ -1,5 +1,4 @@
 import React, { useMemo } from "react";
-// import Image from 'nex/image';
 import Link from "next/link";
 import Wrapper from "../../components/Wrapper";
 import CartItem from "../../components/CartItem";
@@ -41,7 +40,7 @@ function Cart(props) {
                       مبلغ کل
                     </div>
                     <div className="text-md md:text-lg font-medium text-black">
-                      ${subTotal}
+                      تومان {subTotal}
                     </div>
                   </div>
                   <div className="text-sm md:text-md py-5 border-t mt-5">

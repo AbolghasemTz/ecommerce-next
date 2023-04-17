@@ -2,12 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+	font-family: 'Yekan';
+	src:	url('../../public/font/Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('../../public/font/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../../public/font/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('../../public/font/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('../../public/font/Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('../../public/font/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+
 :root {
-  font-family: "Urbanist", sans-serif;
+ 
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
+ 
   color: rgba(0, 0, 0, 1);
 
   font-synthesis: none;
@@ -17,6 +32,9 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html,body{
+  font-family: 'Yekan';
+}
 * {
   margin: 0;
   padding: 0;
@@ -111,12 +129,3 @@
 }
 /* PRODUCT DETAILS CAROUSEL STYLING CUSTOMIZATION END */
 
-.markdown ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: disc;
-  margin: 20px 0;
-}
-.markdown ul li {
-  margin: 10px 0;
-}

@@ -9,8 +9,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      oswald: "Oswald , sans-serif",
-      urbanist: "Urbanist,sans-serif",
+      fontFamily: 'Yekan',
     },
     extend: {},
   },

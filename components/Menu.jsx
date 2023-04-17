@@ -6,7 +6,7 @@ const data = [
   { id: 1, name: "صفحه اصلی", url: "/" },
   { id: 2, name: "درباره ما", url: "/about" },
   { id: 3, name: "دسته بندی ها", subMenu: true },
-  { id: 4, name: "تماس با ما", url: "/contact" },
+  { id: 4, name: "بلاگ", url: "/blog" },
 ];
 
 const subMenuData = [
