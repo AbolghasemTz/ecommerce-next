@@ -23,7 +23,7 @@ function CategoryBlog({ open, setOpen ,category}) {
           {category.map((c) => (
             <Link
               key={c.id}
-              href="blog/slug"
+              href={`/blog/${c.attributes.slug}`}
               className="text-gray-700 my-4 block"
             >
               {c.attributes.title}

@@ -1,13 +1,12 @@
 import React from "react";
 import Wrapper from "./Wrapper";
 import Link from "next/link";
-// import Image from "next/image";
+
 import { percentTagDiscount } from "../utils/helpers";
 
 function ProductCard({ product: { attributes: p, id } }) {
   const imageURL = p.thumbnail.data.attributes.url
-  console.log(imageURL);
-  console.log(p);
+
   return (
     <Wrapper>
       <div className="transform hover:scale-105 overflow-hidden bg-white duration-200 cursor-pointer shadow-sm rounded-md">

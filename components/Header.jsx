@@ -79,7 +79,7 @@ const Header = () => {
           md:left-7 text-white text-[10px] md:text-[12px] flex justify-center items-center px-[2px] md:px-[5px]
           "
             >
-              51
+              3
             </div>
           </div>
           {/* icon end */}
