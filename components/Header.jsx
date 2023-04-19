@@ -6,7 +6,7 @@ import Menu from "./Menu";
 import { BsCart } from "react-icons/bs";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { VscChromeClose } from "react-icons/vsc";
-import { BiMenuAltRight } from "react-icons/Bi";
+import { BiMenuAltRight } from "react-icons/bi";
 import MobileMenu from "./MobileMenu";
 import { getCategory } from "../utils/api";
 import { useSelector } from 'react-redux';

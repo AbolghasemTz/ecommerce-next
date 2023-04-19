@@ -4,17 +4,11 @@ import { BsChevronDown } from "react-icons/bs";
 
 const data = [
   { id: 1, name: "صفحه اصلی", url: "/" },
-  { id: 2, name: "درباره ما", url: "/about" },
-  { id: 3, name: "دسته بندی ها", subMenu: true },
-  { id: 4, name: "بلاگ", url: "/blog" },
+  { id: 2, name: "دسته بندی ها", subMenu: true },
+  { id: 3, name: "بلاگ", url: "/blog" },
 ];
 
-const subMenuData = [
-  { id: 1, name: "Jordan", doc_count: 11 },
-  { id: 2, name: "Sneakers", doc_count: 8 },
-  { id: 3, name: "Running shoes", doc_count: 64 },
-  { id: 4, name: "Football shoes", doc_count: 107 },
-];
+
 
 function Menu({ showCatMenu, setShowCatMenu,categories }) {
   return (

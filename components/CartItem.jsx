@@ -8,7 +8,7 @@ function CartItem({ data }) {
   const dispatch = useDispatch();
   const p = data.attributes;
 const imageURL = p.thumbnail?.data?.attributes?.url;
-console.log(imageURL);
+
   const updateCartItems = (e, key) => {
     let payload = {
       key,
@@ -57,6 +57,7 @@ console.log(imageURL);
               <select
                 className="hover:text-black"
                 onChange={(e) => updateCartItems(e, "selectedSize")}
+             
               >
                 {p.size.data.map((item, i) => {
                   return (

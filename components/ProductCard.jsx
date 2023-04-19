@@ -9,7 +9,7 @@ function ProductCard({ product: { attributes: p, id } }) {
 
   return (
     <Wrapper>
-      <div className="transform hover:scale-105 overflow-hidden bg-white duration-200 cursor-pointer shadow-sm rounded-md">
+      <div className="transform hover:scale-105 overflow-hidden bg-white duration-200 cursor-pointer shadow-md border border-gray-100 rounded-lg">
         <Link href={`/product/${p.slug}`}>
           <img src={`http://localhost:1337${imageURL}`} alt={p.name} />
           <div className="p-4 text-black/[0.9]">
