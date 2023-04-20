@@ -27,7 +27,7 @@ function ProductDetail({ product, products }) {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "light",
+      theme: "dark",
       });;
    }
   return (
@@ -44,7 +44,7 @@ function ProductDetail({ product, products }) {
           {/* right column start */}
           <div className="flex-[1] py-3">
             {/* Product Title */}
-            <div className="text-[34px] font-semibold mb-2">{p.name}</div>
+            <div className="md:text-[34px] text-[26px] font-semibold mb-2 leading-10">{p.name}</div>
             {/* Product SubTitle */}
             <div className="text-lg font-semibold mb-5">{p.subtitle}</div>
             {/* Product Price */}
@@ -95,7 +95,7 @@ function ProductDetail({ product, products }) {
             {/* ShoW Error */}
             {showError && (
               <div className="text-red-600 mt-1">
-                انتخاب ساز ضروری است
+                انتخاب سایز ضروری است
               </div>
             )}
             {/* ShoW Error */}
